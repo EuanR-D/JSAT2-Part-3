@@ -44,3 +44,21 @@ let myStringLower = myString.toLowerCase();
 
 console.log(myStringUpper);
 console.log(myStringLower);
+
+
+// Q3.5
+// concatinating hello and myName
+let concatString = hello.concat(` `, myName);
+console.log(concatString);
+
+// trimming spaces from anotherString
+let trimmedString = anotherString.trimStart();
+console.log(trimmedString);
+
+// replacing "is a" with empty space in myString
+let replacedString = myString.replace(`is a`, ``);
+console.log(replacedString);
+
+// turning myString into an array by splitting at the spaces
+let splitString = myString.split(" ");
+console.log(splitString);
