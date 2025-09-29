@@ -35,3 +35,30 @@ console.log(slicedString);
 // using substring to get "the" from anotherString
 let subStringVar = anotherString.substring(6, 9);
 console.log(subStringVar);
+
+
+// Q3.4
+// Making lower and uppercase copies of myString
+let myStringUpper = myString.toUpperCase();
+let myStringLower = myString.toLowerCase();
+
+console.log(myStringUpper);
+console.log(myStringLower);
+
+
+// Q3.5
+// concatinating hello and myName
+let concatString = hello.concat(` `, myName);
+console.log(concatString);
+
+// trimming spaces from anotherString
+let trimmedString = anotherString.trimStart();
+console.log(trimmedString);
+
+// replacing "is a" with empty space in myString
+let replacedString = myString.replace(`is a`, ``);
+console.log(replacedString);
+
+// turning myString into an array by splitting at the spaces
+let splitString = myString.split(" ");
+console.log(splitString);
