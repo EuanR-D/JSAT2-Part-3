@@ -25,3 +25,13 @@ console.log(`1st char of myString is ${myString.charAt(0)}`);
 // outputting 11th character of myString to console
 console.log(`11th char of myString is ${myString.charAt(10)}`);
 
+
+// Q3.3
+
+// Slicing "is a" from myString and storing in new string variable
+let slicedString = myString.slice(5, 9);
+console.log(slicedString);
+
+// using substring to get "the" from anotherString
+let subStringVar = anotherString.substring(6, 9);
+console.log(subStringVar);
