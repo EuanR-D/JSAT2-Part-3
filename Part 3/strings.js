@@ -35,3 +35,12 @@ console.log(slicedString);
 // using substring to get "the" from anotherString
 let subStringVar = anotherString.substring(6, 9);
 console.log(subStringVar);
+
+
+// Q3.4
+// Making lower and uppercase copies of myString
+let myStringUpper = myString.toUpperCase();
+let myStringLower = myString.toLowerCase();
+
+console.log(myStringUpper);
+console.log(myStringLower);
