@@ -74,7 +74,7 @@ function writeToFile(data, fileName) {
   console.log("Writing to file..");
 
   // creates file with name given, writes data to said file
-  fs.writeFile(`${fileName}`, data, (err) => {
+  fs.writeFile(fileName, data, (err) => {
 
     if (err) {
       // outputs error message if something fails
@@ -92,7 +92,7 @@ function writeToFile(data, fileName) {
 function readFromFile(fileName) {
   console.log("Reading file..");
 
-  fs.readFile(`${fileName}`, (err, fileText) => {
+  fs.readFile(fileName, (err, fileText) => {
 
     if (err) {
       // outputs error message and returns if something fails
@@ -106,5 +106,12 @@ function readFromFile(fileName) {
   });
 }
 
+
+// Q3.7
+// creating data to put into function
+let stringOfText = "This is a string of text";
+
+// calling function with data and filename
+writeToFile(stringOfText, "output.txt");
 
 
