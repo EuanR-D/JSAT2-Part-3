@@ -115,3 +115,7 @@ let stringOfText = "This is a string of text";
 writeToFile(stringOfText, "output.txt");
 
 
+
+// Q3.8
+// calling read function for output text file
+readFromFile("output.txt");
