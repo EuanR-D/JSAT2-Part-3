@@ -64,7 +64,7 @@ let splitString = myString.split(" ");
 console.log(splitString);
 
 
-// Q3.6
+// Q3.7
 // Importing node file system module
 const fs = require('node:fs');
 
@@ -87,6 +87,14 @@ function writeToFile(data, fileName) {
   });
 }
 
+// creating data to put into function
+let stringOfText = "This is a string of text";
+
+// calling function with data and filename
+writeToFile(stringOfText, "output.txt");
+
+
+
 // read from file function
 // 1 param, the file to read from
 function readFromFile(fileName) {
@@ -107,12 +115,8 @@ function readFromFile(fileName) {
 }
 
 
-// Q3.7
-// creating data to put into function
-let stringOfText = "This is a string of text";
 
-// calling function with data and filename
-writeToFile(stringOfText, "output.txt");
+
 
 
 
