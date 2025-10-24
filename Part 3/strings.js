@@ -38,12 +38,12 @@ console.log(subStringVar);
 
 
 // Q3.4
-// Making lower and uppercase copies of myString
-let myStringUpper = myString.toUpperCase();
-let myStringLower = myString.toLowerCase();
+// Making lower and uppercase copies of myName
+let myNameUpper = myName.toUpperCase();
+let myNameLower = myName.toLowerCase();
 
-console.log(myStringUpper);
-console.log(myStringLower);
+console.log(myNameUpper);
+console.log(myNameLower);
 
 
 // Q3.5
