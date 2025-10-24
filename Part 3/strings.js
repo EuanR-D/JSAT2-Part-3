@@ -95,8 +95,10 @@ writeToFile(stringOfText, "output.txt");
 
 
 
+// Q3.8
 // read from file function
 // 1 param, the file to read from
+// Outputs file contents in console
 function readFromFile(fileName) {
   console.log("Reading file..");
 
@@ -114,12 +116,5 @@ function readFromFile(fileName) {
   });
 }
 
-
-
-
-
-
-
-// Q3.8
 // calling read function for output text file
 readFromFile("output.txt");
